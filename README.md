@@ -86,7 +86,7 @@ Será solicitado seu login no GitHub. Com o login feito, Ele começará a encami
 
 ---
 
-## Criando e alterando as branches
+## Criando, alterando e mesclando as branches
 
 Criamos uma nova branch usando:
 
