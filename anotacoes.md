@@ -11,3 +11,5 @@
 `git branch -M "main"` : Altera o nome da branch principal
 
 `git remote add origin [link]` :  Conecta o repositório local com o do github (ex: `git remote add origin https://github.com/thenzolima/projetogit.git`)
+
+`git push -u origin main`: "empura" seu commit para o repositório sincronizado
