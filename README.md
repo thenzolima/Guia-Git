@@ -99,3 +99,7 @@ A partir de agora, qualquer `git add` ou `git commit`, será destinada a nova `b
 ```git
 git push -u origin segunda-branch
 ```
+
+Use `git checkout main` para voltar a `branch` principal.
+
+---
