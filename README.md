@@ -97,9 +97,25 @@ git checkout -b "segunda-branch"
 A partir de agora, qualquer `git add` ou `git commit`, será destinada a nova `branch`. Portanto, o `git push` não terá `main` no final, e sim o nome da `branch` que você acabou de criar:
 
 ```git
-git push -u origin segunda-branch
+git push origin segunda-branch
 ```
 
 Use `git checkout main` para voltar a `branch` principal.
+
+Podemos mesclar uma `branch` na outra com:
+
+```git
+git merge nome-da-branch-que-você-quer-mesclar
+```
+
+Lembrando que após mesclar, deve-se dar um `git pish` para aplicar a mesclagem.
+
+---
+
+## Outros comandos
+
+`git clone link-de-outro-repositorio`: Clona um repositório no GitHub para o seu repositório local.
+
+`git pull`: Traz as alterações feitas no repositório remoto para o repositório local.
 
 ---
