@@ -8,7 +8,7 @@ Antes de começar, é preciso instalar o git. Para saber como instalar o softwar
 
 ## Criando um repositório local
 
-Com o git instalado, crie uma pasta local em seu computador. Para torna-lô um repositório git, abra o git nessa pasta e digite:
+Com o git instalado, crie uma pasta local em seu computador. Para torná-lo um repositório git, abra o git nessa pasta e digite:
 
 ```git
 git init
@@ -44,7 +44,7 @@ Está tudo pronto para o primeiro `commit`! Mas o que é isso?
 
 O `commit` é um registro de alterações em um repositório de código-fonte. Ou seja, qualquer alteração do seu repositório é chamada de `commit`.
 
-Lembrando que todo `commit` precisa de um título, então para "commitar" e entitular o que foi adicionado no repositório, digite:
+Lembrando que todo `commit` precisa de um título, então para "commitar" e intitular o que foi adicionado no repositório, digite:
 
 ```git
 git commit -m "primeiro commit"
@@ -58,7 +58,7 @@ Use o `git status` novamente. Se não apareceu nada para dar `commit`, podemos p
 
 Não sendo muito técnico, `branch` é um caminho independente do desenvolvimento dentro de um repositório. Inicialmente, o projeto tem apenas um `branch`, mas pode ser criado outros com o intuito de trabalhar em mudanças no código sem afetar a linha principal do projeto.
 
-Quando você cria um novo repositório, a primeira `branch` se chama `master`. Entretanto, é recomendado alterar o nome dela para `main`, por ser uma nomeclatura mais atualizada.
+Quando você cria um novo repositório, a primeira `branch` se chama `master`. Entretanto, é recomendado alterar o nome dela para `main`, por ser uma nomenclatura mais atualizada.
 
 Essa alteração pode ser feita digitando em seu terminal:
 
@@ -72,7 +72,7 @@ git branch -M "main"
 
 Para fazer a hospedagem do projeto, crie um repositório no GitHub clicando no botão `new` na aba de repositórios do seu perfil. Como já temos um `README.md`, não é preciso ativar a opção de adicionar esse arquivo.
 
-Quando o repositório é criado, será mostrado um guia do próprio GitHub de como fazer a publicação.
+Quando o repositório for criado, será mostrado um guia do próprio GitHub de como fazer a publicação.
 
 É preciso conectar os dois repositórios (local e remoto) usando o seguinte comando:
 
@@ -82,7 +82,7 @@ git remote add origin https://github.com/usuario/nomedorepositorio.git
 
 Ainda não foi publicado nenhum arquivo. Então, finalizamos o processo com o comando `git push -u origin main` para "empurrar" os `commits` para o repositório remoto.
 
-Será solicitado seu login no GitHub. Com o login feito, Ele começará a encaminhar seus arquivos locais para o repositório da plataforma!
+Será solicitado seu login no GitHub. Com o login feito, ele começará a encaminhar seus arquivos locais para o repositório da plataforma!
 
 ---
 
@@ -108,7 +108,7 @@ Podemos mesclar uma `branch` na outra com:
 git merge nome-da-branch-que-você-quer-mesclar
 ```
 
-Lembrando que após mesclar, deve-se dar um `git pish` para aplicar a mesclagem.
+Lembrando que após mesclar, deve-se dar um `git push` para aplicar a mesclagem.
 
 ---
 
