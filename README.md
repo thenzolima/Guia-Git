@@ -1,4 +1,4 @@
-# Como usar o git.
+# Como criar um repositório Git e sincronizar com o GitHub.
 
 Nesse texto, irei ensinar a como usar o git e publicar o seu repositório no GitHub.
 
