@@ -34,7 +34,11 @@ Se você tem mais de um arquivo, e queira adicionar todos ao repositório, use:
 git add .
 ```
 
-Para consultar os arquivos enviados, digite `git status`.
+Explicando um pouco mais o que aconteceu, o `git add` manda os arquivos para uma área de teste que oferece a oportunidade de organizar e planejar as alterações que serão incluídas no próximo commit.
+
+![ilustração do git add](https://www.w3docs.com/uploads/media/default/0001/03/ad19114d2f18ae7f7e8b99a5110d1a2f339282c6.png)
+
+Para consultar essa área de teste, digite `git status`.
 
 ---
 
