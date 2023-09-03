@@ -122,6 +122,6 @@ Lembrando que após mesclar, deve-se dar um `git push` para aplicar a mesclagem.
 
 ## Conclusão
 
-Espero que você tenha terminado esse matérial sabendo o básico desses recursos e com vontade de aprender mais sobre. Se, gostou não deixe de dar uma estrelinha nesse repositório e de compartilhar com aquele amigo dev. que com certeza irá se beneficiar do conteúdo.
+Espero que você tenha terminado esse material sabendo o básico desses recursos e com vontade de aprender mais sobre. Se gostou, não deixe de dar uma estrelinha nesse repositório e de compartilhar com aquele amigo dev. que com certeza irá se beneficiar do conteúdo.
 
 Caso queira entrar em contato comigo: thenzolima@proton.me
