@@ -1,6 +1,6 @@
 # Criando e Sincronizando um Repositório Git no Github.
 
-**Autor: Enzo Lima**
+**Autor: Enzo Lima ([E-mail](mailto:contato@thenzolima.com.br), [Instagram](https://www.instagram.com/thenzolima/), [Site Pessoal](https://www.thenzolima.com.br/))**
 
 ---
 
@@ -48,7 +48,7 @@ git add .
 
 Explicando um pouco mais sobre o que aconteceu, o `git add` manda os arquivos para uma área de teste que oferece a oportunidade de organizar e planejar as alterações que serão incluídas no próximo commit.
 
-![ilustração do git add](https://www.w3docs.com/uploads/media/default/0001/03/ad19114d2f18ae7f7e8b99a5110d1a2f339282c6.png)
+![[Reprodução: Thaddeus Resource Center](https://assets-global.website-files.com/61a33234ec52cc692c647c76/650f5d9dde70f474ca14d425_index1%402x.png)](https://assets-global.website-files.com/61a33234ec52cc692c647c76/650f5d9dde70f474ca14d425_index1%402x.png)
 
 Para consultar essa área de teste, digite `git status`.
 
@@ -92,7 +92,7 @@ git remote add origin https://github.com/usuario/nomedorepositorio.git
 
 Finalizamos o processo com o comando `git push -u origin main` para "empurrar" os commits para o repositório remoto - será solicitado seu login no Github.
 
-**OBS: No ambiente linux, ao invés da senha, você deve colocar um token que pertence a sua conta. Saiba mais aqui.**
+> OBS: No ambiente linux, ao invés da senha, você deve colocar um token que pertence a sua conta. [Saiba mais aqui](https://docs.github.com/pt/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens).
 
 Com o login feito, ele começará a encaminhar seus arquivos locais para o repositório da plataforma! Estando concluido nossa primeira publicação.
 
@@ -132,12 +132,12 @@ Vamos supor que você esteja trabalhando em um projeto mais simples no Github, t
 
 Com ele é possível fazer grande parte das funções do git de maneira gráfica com uma curva de aprendizado bastante simples.
 
-## Conclusão
-
-Espero que você tenha terminado esse material sabendo o básico desses recursos e com vontade de aprender mais sobre. Se gostou, não deixe de compartilhar o material com aquele amigo dev. que com certeza irá se beneficiar do conteúdo.
-
-Acha que alguma coisa ficou faltando aqui? [Crie uma issue no repositório](https://github.com/thenzolima/GuiaGit/issues).
-
 ---
 
-✲ Enzo Lima ([E-mail](mailto:contato@thenzolima.com.br), [Instagram](https://www.instagram.com/thenzolima/), [Site Pessoal](https://www.thenzolima.com.br/))
+## Conclusão
+
+Espero que você tenha terminado esse material sabendo o básico desses recursos e com vontade de aprender mais sobre. Tenha a [documentação do git](https://git-scm.com/doc) como referência.
+
+Se gostou, não deixe de compartilhar o material com aquele amigo dev. que com certeza irá se beneficiar do conteúdo.
+
+Acha que alguma coisa ficou faltando aqui? [Crie uma issue no repositório](https://github.com/thenzolima/GuiaGit/issues).
