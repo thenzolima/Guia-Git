@@ -2,7 +2,7 @@
 
 **Autor: Enzo Lima**
 
-Este trabalho está licenciado sob [CC BY-NC-SA 4.0](creativecommons.org/licenses/by-nc-sa/4.0/). Para visualizar uma cópia desta licença, visite esta página.
+Este trabalho está licenciado sob CC BY-NC-SA 4.0. Para visualizar uma cópia desta licença, [visite esta página](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 ---
 
